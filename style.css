@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    border: none;
+    background: #7879da;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 4px rgba(214, 214, 214, 0.8);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #caf0f8;
+    color: #3f3f3f;
+    box-shadow: none;
+}
+
+body {
+    background: #ebf2f4;
+    color: #181818;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    position: relative;
+    background: #7879da;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.card-container {
+    position: absolute;
+    top: 70px;
+    left: -70px;
+    background: #fff;
+    width: 650px;
+    border-radius: 10px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 4px rgb(120, 121, 218, 0.4);
+}
+
+.main-description i {
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    color: #ccc;
+}
+
+.main-description i:hover {
+    color: #7879da;
+}
+
+.main-description h2 {
+    font-size: 1.1rem;
+}
+
+.main-description p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 1rem 9rem 1rem 0rem;
+}
+
+.form-card form {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+}
+
+.form-card input {
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #caf0f8;
+}
+
+.form-card input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.form-card input:focus {
+    outline: none;
+    border: 2px solid #7879da;
+}
+
+.information-card {
+    background: #ebf2f4;
+    color: #3f3f3f;
+    margin-top: 2.1rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.information-card h3 {
+    font-size: 0.9rem;
+}
+
+.information-card p {
+    font-size: 0.8rem;
+    padding: 1rem 9rem 0rem 0rem;
+    line-height: 1.5;
+}
+
+.information-card a {
+    color: #7879da;
+    font-weight: 500;
+}
+
+.information-card a:hover {
+    text-decoration: none;
+    color: #181818;
+}
